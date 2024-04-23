@@ -14,3 +14,6 @@
 .skills { margin-left: 3.5%; font-size: 18px; font-style: italic; }
 .skills2 { margin-left: 5%; font-size: 18px; font-style: italic; }
 li { line-height: 95%; }
+.ftp_a { color: black; }
+.table_for_os { width: 100%; font-size: 2.5em; font-weight: bold; text-align: center; padding-top: 50px; padding-bottom: 50px; }
+.td_for_table { border-right: gray 1px solid; vertical-align: top;}
