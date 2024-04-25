@@ -5,16 +5,17 @@
 .contacts { font-size: 30px; font-variant: small-caps; padding: 0px; font-weight: bold; text-align: center; margin-top: 15px; margin-bottom: 15px; }
 .contacts2 { font-size: 26px; padding: 0px; text-align: center; margin-top: 15px; margin-bottom: 15px; }
 .link1 { color: black; }
-.main_jpg { width: 100%; margin-bottom: 15px; }
+.main_jpg { width: 100%; margin-bottom: 15px; opacity: 0.0; }
 .percent100 { width: 100%; } 
 .middle { color: white; background: #ff9893; font-size: 30px; font-variant: small-caps; text-indent: 250px; }
 .list { font-size: 26px; list-style-position: inside; text-indent: 250px; margin-top: 15px; margin-bottom: 15px; }
 .link2 { font-size: 22px; font-variant: small-caps; color: white; }
 .v_skobkax { font-size: 18px; font-style: italic; }
-.skills { margin-left: 3.5%; font-size: 18px; font-style: italic; }
-.skills2 { margin-left: 5%; font-size: 18px; font-style: italic; }
+.skills { margin: 7px 0px 7px 3.5%; font-size: 22px; font-style: italic; }
+.skills2 { margin: 2px 0px 2px 5.5%; font-size: 18px; font-style: italic; }
 li { line-height: 95%; }
 .ftp_a { color: black; }
 .table_for_os { width: 100%; font-size: 2.5em; font-weight: bold; text-align: center; padding-top: 50px; padding-bottom: 50px; }
 .td_for_table { border-right: gray 1px solid; vertical-align: top;}
 #link_main { color: white; font-size: 30px; }
+#body_background { background-image: url(./pictures/main.jpg); background-size: contain; background-repeat: no-repeat; }
