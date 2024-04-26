@@ -1,21 +1,43 @@
-* { margin:0px; }
-.begin_end { color: white; background: #ff9893; font-size: 22px; font-variant: small-caps; text-indent: 250px; }
-.begin_tb { margin-left: 250px; margin-top: 15px; margin-bottom: 15px; }
-.begin_th { font-size: 30px; font-variant: small-caps; width: 50%; padding: 0px; text-decoration: underline; }
-.contacts { font-size: 30px; font-variant: small-caps; padding: 0px; font-weight: bold; text-align: center; margin-top: 15px; margin-bottom: 15px; }
-.contacts2 { font-size: 26px; padding: 0px; text-align: center; margin-top: 15px; margin-bottom: 15px; }
-.link1 { color: black; }
-.main_jpg { width: 100%; margin-bottom: 15px; opacity: 0.0; }
-.percent100 { width: 100%; } 
-.middle { color: white; background: #ff9893; font-size: 30px; font-variant: small-caps; text-indent: 250px; }
-.list { font-size: 26px; list-style-position: inside; text-indent: 250px; margin-top: 15px; margin-bottom: 15px; }
-.link2 { font-size: 22px; font-variant: small-caps; color: white; }
-.v_skobkax { font-size: 18px; font-style: italic; }
-.skills { margin: 7px 0px 7px 3.5%; font-size: 22px; font-style: italic; }
-.skills2 { margin: 2px 0px 2px 5.5%; font-size: 18px; font-style: italic; }
-li { line-height: 95%; }
-.ftp_a { color: black; }
-.table_for_os { width: 100%; font-size: 2.5em; font-weight: bold; text-align: center; padding-top: 50px; padding-bottom: 50px; }
-.td_for_table { border-right: gray 1px solid; vertical-align: top;}
-#link_main { color: white; font-size: 30px; }
-#body_background { background-image: url(./pictures/main.jpg); background-size: contain; background-repeat: no-repeat; }
+* { margin: 0px; }
+* { padding: 0px; }
+
+/*******************************************************************/
+
+/* верхняя и нижняя полоса, полоса мои проекты */
+.top_and_bottom { background-color: #FF9794; height: 30px; font-size: 1.5em; font-weight: 600; text-indent: 10%; color: white; text-transform: capitalize; }
+.top_and_bottom a { color: white; }
+
+
+/* header */
+table { margin-top: 20px; margin-left: 10%; margin-bottom: 20px; }
+table tr th { width: 200px; }
+table tr th a { color: black; font-size: 2em; font-weight: 600; }
+
+
+/* background */
+#first_page { background-image: url(./pictures/main.jpg); background-size: contain; background-repeat: no-repeat; }
+#empty_img { width: 100%; opacity: 0.0; }
+
+/* div "section" */
+.section { font-size: 1.2em; }
+li { margin: 0.5% 0 0.5% 12.5%; }
+li a { color: black; font-size: 1.5em; font-weight: 400; }
+li > p { margin: 0.5% 0 0.5% 35px; font-style: italic; }
+li div p { margin-left: 70px; font-style: italic; }
+
+/*******************************************************************/
+
+/* служебное определение высоты родителя*/
+.lenght_100 { height: 100%; }
+
+/* section */
+#minus_height_footer { height: calc(100% - 143px); } /* section обрезка высоты, чтобы было видно footer*/
+#empty_div_for_contacts { height: 200px; }
+.contacts { font-size: 1.5em; font-weight: 400; text-align: center; margin-bottom: 20px; }
+div p a {color: black; }
+
+/*******************************************************************/
+
+#table_for_os { width: 100%; margin: 0px; }
+.table_for_ftp { font-size: 2.5em; vertical-align: top; text-align: center; padding: 25px; }
+th img { width: 100%; }
