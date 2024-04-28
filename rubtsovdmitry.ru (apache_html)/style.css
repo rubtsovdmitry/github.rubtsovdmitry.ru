@@ -24,6 +24,8 @@ li { margin: 0.5% 0 0.5% 12.5%; }
 li a { color: black; font-size: 1.5em; font-weight: 400; }
 li > p { margin: 0.5% 0 0.5% 35px; font-style: italic; }
 li div p { margin-left: 70px; font-style: italic; }
+i { color: #FF9794; }
+.fat { font-weight: 600; }
 
 /*******************************************************************/
 
