@@ -6,7 +6,8 @@
 /* верхняя и нижняя полоса, полоса мои проекты */
 .top_and_bottom { background-color: #FF9794; height: 30px; font-size: 1.5em; font-weight: 600; text-indent: 10%; color: white; text-transform: capitalize; }
 .top_and_bottom a { color: white; }
-
+h1.top_and_bottom { position: fixed; top: 0; left: 0; right: 0; } 
+footer.top_and_bottom { position: fixed; bottom: 0; left: 0; right: 0; }
 
 /* header */
 table { margin-top: 20px; margin-left: 10%; margin-bottom: 20px; }
