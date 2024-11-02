@@ -14,6 +14,7 @@
 .top_and_bottom a { color: white; }
 h1.top_and_bottom { position: fixed; top: 0; left: 0; right: 0; } 
 footer.top_and_bottom { position: fixed; bottom: 0; left: 0; right: 0; }
+.my-sticky { position: sticky; top: 31px; }
 
 /* header */
 table { margin-top: 20px; margin-left: 10%; margin-bottom: 20px; }
