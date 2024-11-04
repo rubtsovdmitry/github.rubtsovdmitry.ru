@@ -1,0 +1,173 @@
+@import "./reset/_reset.scss";
+@import "./help/_variables.scss";
+@import "./help/_mixin.scss";
+@import "./my_pages/_contacts.scss";
+@import "./my_pages/_ftp.scss";
+
+
+// плавный скролл
+:root {                 
+    scroll-behavior: smooth;
+}
+
+
+// Верхняя и нижняя полосы, которые являются js-включениями
+h1, footer, footer a {
+    font-size: $font-size-1;
+    font-weight: 400;
+    color: $color-text-1;
+    background-color: $color-style;
+}
+h1, footer {
+    padding: 2px 0 2px $left-pad;
+    height: $height-fix-line;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    a:not(:first-child) {
+        margin-left: $left-margin-for-menu-elements;
+    }
+}
+
+
+// header + nav
+header {
+    overflow-x: hidden;
+    position: relative;    
+    .photo {
+        width: 100vw;
+        height: 100vw;
+        background-image: url(../add/pictures/main.jpg);
+        background-size: cover;
+        nav {
+            position: absolute;
+            top: $height-fix-line * 1.75;
+            left: $left-pad;
+            a {
+                display: inline-block;
+                font-size: $font-size-2;
+                color: $color-text-1;
+                text-shadow: 3px 3px $color-text-2;
+            }
+            a:not(:first-child) {
+                margin-left: $left-margin-for-menu-elements;
+            }
+        }
+    }
+    .my-projects {
+        font-size: $font-size-1;
+        color: $color-text-1;
+        text-shadow: 2px 2px $color-text-2;
+        position: absolute;
+        top: $height-fix-line * 3.5;
+        left: $left-pad;
+        animation-name: my-projects;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+}
+
+
+// middle-line
+.middle-line {
+    height: $height-fix-line + 1px;
+    border-top: 1px solid white;
+    font-size: $font-size-2;    
+    color: $color-text-1;
+    background-color: $color-style;
+    padding-left: $left-pad;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    top: $height-fix-line;
+    a {
+        font-size: $font-size-1;
+        margin-left: $left-margin-for-menu-elements;
+        color: $color-text-2;
+    }
+}
+
+
+// Основной контент
+.main_wrapper {
+    padding: $height-fix-line * 0.5 $left-pad $height-fix-line * 1.5 $left-pad;
+    font-size: $font-size-1;
+    text-align: justify;
+    .context-h {
+        font-size: $font-size-2;
+        font-style: normal;
+        padding-left: $left-pad * 0.25;
+        margin-top: $y-margin-for-p * 3;
+    }
+    p, a {
+        font-size: $font-size-1;
+        font-style: italic;
+        margin: $y-margin-for-p 0;
+        padding-left: $left-pad * 0.25;
+    }
+    a {
+        font-size: $font-size-2;
+        font-style: normal;
+        color: $color-text-2;
+    }
+    .stack {
+        padding-left: $left-pad * 0.25;
+        i {
+            font-size: $font-size-1;
+            color: $color-style;
+        }
+    }
+    .tube {
+        font-size: $font-size-1;
+        color: $color-text-3;
+        font-style: italic;
+    }
+    p strong {
+        font-size: $font-size-1;
+        margin-left: $left-pad * 0.25;
+        
+    }
+    ul li {
+        font-size: $font-size-1;
+        margin-left: $left-pad * 0.75;
+        font-style: italic;
+        a {
+            padding-left: 0;           
+        }
+    }
+    hr {
+        margin: $y-margin-for-p * 2 0;
+    }
+    .my-animation {
+        animation-name: my-animation;
+        animation-duration: 1.5s;        
+        animation-timing-function: linear;
+        position: relative;
+    }
+}
+
+
+// Анимации
+@keyframes my-projects {
+    0% { transform: scale(1); left: $left-pad; }
+    100% { transform: scale(1.2); left: calc($left-pad + 20px); }
+}
+@keyframes my-animation {
+    0% { left: -$left-pad; }
+    100% { left: 0; }
+}

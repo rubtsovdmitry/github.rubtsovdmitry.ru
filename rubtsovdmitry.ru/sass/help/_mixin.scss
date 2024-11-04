@@ -1,0 +1,10 @@
+@mixin media2199 {
+    @media (max-width: $media2199) {
+        @content;
+    }
+}
+@mixin media2200 {
+    @media (min-width: $media2200) {
+        @content;
+    }
+}

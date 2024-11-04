@@ -2,114 +2,137 @@
 <html lang="ru">
 	<head>
 		<meta name="Dmitry Rubtsov." content="Dmitry Rubtsov.">
-		<meta name="generator" content="Bluefish 2.2.14" >
+		<meta name="generator" content="Visual Studio Code" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">	
-		<link rel="stylesheet" href="style.css">		
 		<link href="favicon.ico" rel="icon">
-		<title> Официальный сайт Дмитрия Рубцова. </title>		
+		<link rel="stylesheet" href="./css/style.css">		
+		<title> Официальный Сайт Дмитрия Рубцова </title>		
 	</head>
-
-	<body id="first_page">
-		<div class="top_and_bottom" id="first"></div>
-		<h1 class="top_and_bottom"> Официальный сайт Дмитрия Рубцова. </h1>
-
+	<body>
+		<div w3-include-html="./include-html/name.html"></div>													<!-- js-включения -->
+		<div id="begin"></div>
 		<header>
-			<table>
-				<tr>
-					<th> <a href="#my_project" rel=“nofollow”> Мои проекты </a> </th> <th> <a href="./contacts.html" rel=“nofollow”> Контакты </a> </th>
-				</tr>
-			</table>
+			<div class="photo">
+				<div w3-include-html="./include-html/nav.html"></div>											<!-- js-включения -->
+			</div>
+			<a href="#my-projects" class="my-projects"> Перейти к проектам </a>
 		</header>
-		
-		<img id="empty_img" src="./pictures/main_blank.jpg" alt="Титульный лист">
-		
-		<div id="my_project"></div>
-		<div class="top_and_bottom my-sticky"> <a href="#first"> Мои проекты: </a> </div>
-		
-		<div class="my_section">
-			<p> О вёрстке: </p> 
-			<p> Порядок создания проектов &mdash; это текущий сайт с последующим списком проектов представленным ниже с соблюдением хронологии. </p>
-			<p id="qwerty"> Качество вёрстки отличается от ранних до более поздних проектов. Контент для проектов периодически добавляется. Также растёт и качество вёрстки этих добавлений. </p>
-			<hr>
-			<ul> 
-				<li> <a href="https://python.rubtsovdmitry.ru" target="_blank"> python.rubtsovdmitry.ru </a> &ensp; <i class="fat"> Cтек: HTML &amp; CSS &ensp; Контент: Python &ensp; </i> <strong class="tube"> Старт проекта: 2023.07.13 &ensp; Последний коммит: 2024.09.10 </strong>
-					<p> <strong> Skills / курсы для создания проекта: </strong> </p>
-					<div>
-						<p>	- HTML и CSS. Уровень 1. Создание сайтов на HTML 5 и СSS 3.0. </p>
-						<p>	- Основы программирования и баз данных. </p>
-						<p>	- Программирование на языке Python. Уровень 1. Базовый курс. </p>
-						<p> - Программирование на языке Python. Уровень 2. Продвинутый курс. </p>
-						<p> - Основы решения алгоритмических задач. </p>	 
-						<p> - Система управления версиями Git. </p>
-						<p> - Основы сетей, сетевые операционные системы и практикум Wi - Fi. </p>
-						<p> - Построение сетей масштаба предприятия. </p>
-						<p> - Linux. Уровень 1. Основы администрирования. </p>
-						<p> - Linux. Уровень 2. Администрирование сетевых сервисов. </p>
-						<p> - Linux. Уровень 3. Обеспечение безопасности систем, сервисов и сетей. </p>
-						<p> - Веб - сервера Nginx и Apache. </p>
-					</div>
-					<p> <strong> Книги / дополнительные материалы: </strong> </p>
-					<div>
-						<p> - "Грокаем алгоритмы." Адитья Бхаргава. </p>
-						<p> - "Python. Сборник упражнений." Бен Стивенсон. </p> 
-						<p> - "Большая книга проектов Python." Эл Свейгарт. </p>
-						<p> - "Рекурсивная книга о рекурсии." Эл Свейгарт. </p>
-						<p> - "PYTHON. Чистый код для продолжающих." Эл Свейгарт. </p>	
-						<p> - "Автоматизация рутинных задач с помощью Python." Эл Свейгарт. </p>	
-						<p> - "Библия Linux." Кристофер Негус. </p>
-						<p> - "Linux на примерах." Донцов В.П., Сафин И.В. </p>
-						<p> - "Linux. От новичка к профессионалу." Денис Колисниченко. </p>
-						<br>
-						<p> <a href="https://www.youtube.com/@AlekOS" target="_blank" class="tube"> - YouTube-канал: Alek OS </a> </p>
-						<p> <a href="https://www.youtube.com/@YuriyLebedev" target="_blank" class="tube"> - YouTube-канал: Yuriy Lebedev </a> </p>
-						<p> <a href="https://www.youtube.com/@GNULinuxPro" target="_blank" class="tube"> - YouTube-канал: GNU Linux Pro </a> </p>
-						<p> <a href="https://rutube.ru/channel/23912197/" target="_blank" class="tube"> - RUTUBE-канал: РЕД ОС </a> </p>
-					</div>
-				</li>
-			</ul>
-			<hr>
-			<ul>
-				<li> <a href="https://album.rubtsovdmitry.ru" target="_blank"> album.rubtsovdmitry.ru </a> &ensp; <i class="fat"> Cтек: HTML &amp; CSS + JS (копипаст) &ensp; </i> <strong class="tube"> Старт проекта: 2024.04.26 &ensp; Последний коммит: 2024.10.28 </strong>
-					<p> <strong> Skills / курсы для создания проекта: </strong> </p>
-					<div>
-						<p>	- HTML и CSS. Уровень 2. Углубленный CSS и вёрстка макета. </p>
-					</div>
-				</li>
-			</ul>
-			<hr>
-			<ul>
-				<li> <a href="https://css-templates.rubtsovdmitry.ru" target="_blank"> css-templates.rubtsovdmitry.ru </a> &ensp; <i class="fat"> Cтек: HTML &amp; CSS + JS (копипаст) &ensp; </i> <strong class="tube"> Старт проекта: 2024.07.31 &ensp; Последний коммит: 2024.11.03 </strong>
-					<p> <strong> Skills / курсы для создания проекта: </strong> </p>
-					<div>
-						<p>	- HTML и CSS. Уровень 3. Продвинутые методологии и инструменты верстки. </p>		
-					</div>
-					<p> <strong> Книги / дополнительные материалы: </strong> </p>
-					<div>
-						<p> - "Большая книга CSS." Дэвид Макфарланд. </p>
-						<br>
-						<p> <a href="https://www.w3schools.com/" target="_blank" class="tube"> - W3Schools — бесплатный образовательный веб-сайт для обучения кодированию онлайн </a> </p>
-						<p> <a href="https://www.youtube.com/@YauhenKavalchuk" target="_blank" class="tube"> - YouTube-канал: webDev </a> </p>
-						<p> <a href="https://www.youtube.com/@ITDoctor" target="_blank" class="tube"> - YouTube-канал: ITDoctor </a> </p>
-						<p> <a href="https://www.youtube.com/@wdm" target="_blank" class="tube"> - YouTube-канал: WebDesign Master </a> </p>
-					</div>
-				</li>
-			</ul>
-			<hr>
-			<ul>
-				<li> <a href="https://django.rubtsovdmitry.ru" target="_blank"> django.rubtsovdmitry.ru </a> &ensp; <i class="fat"> Cтек: Bootstrap &amp; Django </i> &ensp; <i class="fat"> &ensp; (в разработке) </i> 					
-				</li>
-			</ul>
-			<hr>			
-			<ul>
-				<li> <a href="https://euler.rubtsovdmitry.ru" target="_blank"> euler.rubtsovdmitry.ru </a> &ensp; <i class="fat"> Cтек: Bootstrap &amp; Django &ensp; Контент: Python </i> &ensp; <i class="fat"> &ensp; (в разработке) </i> </li>
-			</ul>
-			<hr>			
-			<ul>
-				<li> <a href="https://js-examples.rubtsovdmitry.ru" target="_blank"> js-examples.rubtsovdmitry.ru </a> &ensp; <i class="fat"> Cтек: HTML &amp; CSS &amp; JS </i> &ensp; <i class="fat"> &ensp; (в разработке) </i> </li>
-			</ul> 
+		<div class="middle-line" id="my-projects"> 
+			Мои проекты: 
+			<a href="#begin"> (вернуться в начало) </a>
 		</div>
+		<div class="main_wrapper">
+			<p class="context-h"> О вёрстке: </p> 
+			<p> Порядок создания проектов &mdash; это список проектов представленный ниже с соблюдением хронологии. </p>
+			<p id="qwerty"> Качество вёрстки отличается от ранних до более поздних проектов. Контент для проектов периодически добавляется. Также растёт и качество вёрстки этих добавлений. </p>
 
-		<div class="top_and_bottom"></div>
-		<footer class="top_and_bottom"> <a href="https://github.com/rubtsovdmitry" target="_blank"> GitHub </a> &ensp; <a href="https://gitverse.ru/rubtsovdmitry?tab=repos" target="_blank"> Gitverse </a> </footer>
-	</body>
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://python.rubtsovdmitry.ru" target="_blank"> python.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: HTML &amp; CSS &ensp; Контент: Python &ensp; </i> <strong class="tube"> Старт проекта: 2023.07.13 &ensp; Последний коммит: 2024.09.10 </strong>
+				</div>
+			</div>
+			<p> <strong> Skills / курсы для создания проекта: </strong> </p>
+			<ul>
+				<li> HTML и CSS. Уровень 1. Создание сайтов на HTML 5 и СSS 3.0. </li>
+				<li> Основы программирования и баз данных. </li>
+				<li> Программирование на языке Python. Уровень 1. Базовый курс. </li>
+				<li> Программирование на языке Python. Уровень 2. Продвинутый курс. </li>
+				<li> Основы решения алгоритмических задач. </li>	 
+				<li> Система управления версиями Git. </li>
+				<li> Основы сетей, сетевые операционные системы и практикум Wi - Fi. </li>
+				<li> Построение сетей масштаба предприятия. </li>
+				<li> Linux. Уровень 1. Основы администрирования. </li>
+				<li> Linux. Уровень 2. Администрирование сетевых сервисов. </li>
+				<li> Linux. Уровень 3. Обеспечение безопасности систем, сервисов и сетей. </li>
+				<li> Веб - сервера Nginx и Apache. </li>
+			</ul>
+			<p> <strong> Книги / дополнительные материалы: </strong> </p>
+			<ul>
+				<li> "Грокаем алгоритмы." Адитья Бхаргава. </li>
+				<li> "Python. Сборник упражнений." Бен Стивенсон. </li> 
+				<li> "Большая книга проектов Python." Эл Свейгарт. </li>
+				<li> "Рекурсивная книга о рекурсии." Эл Свейгарт. </li>
+				<li> "PYTHON. Чистый код для продолжающих." Эл Свейгарт. </li>	
+				<li> "Автоматизация рутинных задач с помощью Python." Эл Свейгарт. </li>	
+				<li> "Библия Linux." Кристофер Негус. </li>
+				<li> "Linux на примерах." Донцов В.П., Сафин И.В. </li>
+				<li> "Linux. От новичка к профессионалу." Денис Колисниченко. </li>
+				<li> <a href="https://www.youtube.com/@AlekOS" target="_blank" class="tube"> YouTube-канал: Alek OS </a> </li>
+				<li> <a href="https://www.youtube.com/@YuriyLebedev" target="_blank" class="tube"> YouTube-канал: Yuriy Lebedev </a> </li>
+				<li> <a href="https://www.youtube.com/@GNULinuxPro" target="_blank" class="tube"> YouTube-канал: GNU Linux Pro </a> </li>
+				<li> <a href="https://rutube.ru/channel/23912197/" target="_blank" class="tube"> RUTUBE-канал: РЕД ОС </a> </li>
+			</ul>
+
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://album.rubtsovdmitry.ru" target="_blank"> album.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: HTML &amp; CSS + JS (копипаст) &ensp; </i> <strong class="tube"> Старт проекта: 2024.04.26 &ensp; Последний коммит: 2024.10.28 </strong>
+				</div>
+			</div>
+			<p> <strong> Skills / курсы для создания проекта: </strong> </p>
+			<ul>
+				<li> HTML и CSS. Уровень 2. Углубленный CSS и вёрстка макета. </li>
+			</ul>
+
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://css-templates.rubtsovdmitry.ru" target="_blank"> css-templates.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: HTML &amp; CSS + JS (копипаст) &ensp; </i> <strong class="tube"> Старт проекта: 2024.07.31 &ensp; Последний коммит: 2024.11.03 </strong>
+				</div>
+			</div>
+			<p> <strong> Skills / курсы для создания проекта: </strong> </p>
+			<ul>
+				<li> HTML и CSS. Уровень 3. Продвинутые методологии и инструменты верстки. </li>
+			</ul>
+			<p> <strong> Книги / дополнительные материалы: </strong> </p>
+			<ul>
+				<li> "Большая книга CSS." Дэвид Макфарланд. </li>
+				<li> <a href="https://www.w3schools.com/" target="_blank" class="tube"> W3Schools — бесплатный образовательный веб-сайт для обучения кодированию онлайн </a> </li>
+				<li> <a href="https://www.youtube.com/@YauhenKavalchuk" target="_blank" class="tube"> YouTube-канал: webDev </a> </li>
+				<li> <a href="https://www.youtube.com/@ITDoctor" target="_blank" class="tube"> YouTube-канал: ITDoctor </a> </li>
+				<li> <a href="https://www.youtube.com/@wdm" target="_blank" class="tube"> YouTube-канал: WebDesign Master </a> </li>
+			</ul>
+
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://django.rubtsovdmitry.ru" target="_blank"> django.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: Bootstrap &amp; Django &ensp; </i> <strong class="tube"> (в разработке) </strong>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://euler.rubtsovdmitry.ru" target="_blank"> euler.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: Bootstrap &amp; Django &ensp; </i> <strong class="tube"> (в разработке) </strong>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://js-examples.rubtsovdmitry.ru" target="_blank"> js-examples.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: HTML &amp; CSS + JS &ensp; </i> <strong class="tube"> (в разработке) </strong>
+				</div>
+			</div>
+
+		</div>
+		<div w3-include-html="./include-html/bottom-line.html"></div>											<!-- js-включения -->
+		<script src="./js/include.js"></script>																	<!-- позволяет добавить на страницу html-включения -->
+		<script> includeHTML(); </script>
+		<script src="./js/wow.min.js"></script>																	<!-- Запускает анимацию при скроле. Для использования в теге элемента поставить class="wow" -->
+		<script> new WOW().init(); </script>																	<!-- Активирует скрипт js -->
+	</body> 
 </html>

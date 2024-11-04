@@ -2,48 +2,36 @@
 <html lang="ru">
 	<head>
 		<meta name="Dmitry Rubtsov." content="Dmitry Rubtsov.">
-		<meta name="generator" content="Bluefish 2.2.14" >
-		<meta charset="utf-8">
-		<meta name="robots" content="noindex, nofollow"> 
-		<link rel="stylesheet" href="style.css">		
-		<title> Официальный сайт Дмитрия Рубцова. </title>		
+		<meta name="generator" content="Visual Studio Code" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">	
+		<link rel="stylesheet" href="./css/style.css">		
+		<title> Официальный Сайт Дмитрия Рубцова </title>		
 	</head>
 	<body>
-		<div class="top_and_bottom"></div>
-		<h1 class="top_and_bottom"> Официальный сайт Дмитрия Рубцова. </h1>
-		
-		<table id="table_for_os">
-			<tr>
-				<th class="table_for_ftp">
-					Подключение в Windows <br>
-					<br>
-					<img src="./pictures/win_1.jpg" alt=""> <br>					
-					<br>
-					<img src="./pictures/win_2.jpg" alt=""> <br>						
-					<br>
-					<img src="./pictures/win_3.jpg" alt=""> <br>						
-					<br>
-					<img src="./pictures/win_4.jpg" alt=""> <br>					
-					<br>
-					<img src="./pictures/win_5.jpg" alt=""> <br>						
-					<br>
-					<img src="./pictures/win_6.jpg" alt=""> <br>
-					<br>
-					<img src="./pictures/win_7.jpg" alt=""> <br>
-					<br>
-					<img src="./pictures/win_8.jpg" alt=""> <br>
-					<br>
-					<img src="./pictures/win_9.jpg" alt=""> <br>
-				</th>
-				<th class="table_for_ftp">
-					Подключение в Linux <br>
-					<br>
-					<img src="./pictures/linux.jpg" alt="">
-				</th>
-			</tr>
-		</table>
-
-		<div class="top_and_bottom"></div>
-		<footer class="top_and_bottom"> <a class="link2" href="https://github.com/rubtsovdmitry" target="_blank"> GitHub </a> &ensp; <a href="https://gitverse.ru/rubtsovdmitry?tab=repos" target="_blank"> Gitverse </a> </footer>
-	</body>
+		<div w3-include-html="./include-html/name.html"></div>													<!-- js-включения -->
+		<div class="wrapper-for-ftp">
+			<div class="wrapper-for-ftp-1">
+				Подключение в Windows
+				<img src="./add/pictures/win_1.jpg" alt="">
+				<img src="./add/pictures/win_2.jpg" alt="">
+				<img src="./add/pictures/win_3.jpg" alt="">
+				<img src="./add/pictures/win_4.jpg" alt="">
+				<img src="./add/pictures/win_5.jpg" alt="">
+				<img src="./add/pictures/win_6.jpg" alt="">
+				<img src="./add/pictures/win_7.jpg" alt="">
+				<img src="./add/pictures/win_8.jpg" alt="">
+				<img src="./add/pictures/win_9.jpg" alt="">
+			</div>
+			<div class="wrapper-for-ftp-2">
+				Подключение в Linux
+				<img src="./add/pictures/linux.jpg" alt="">
+			</div>
+		</div>
+		<div w3-include-html="./include-html/bottom-line.html"></div>											<!-- js-включения -->
+		<script src="./js/include.js"></script>																	<!-- позволяет добавить на страницу html-включения -->
+		<script> includeHTML(); </script>
+		<script src="./js/wow.min.js"></script>																	<!-- Запускает анимацию при скроле. Для использования в теге элемента поставить class="wow" -->
+		<script> new WOW().init(); </script>																	<!-- Активирует скрипт js -->
+	</body> 
 </html>

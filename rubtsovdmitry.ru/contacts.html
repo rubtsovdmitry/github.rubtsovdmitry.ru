@@ -1,39 +1,28 @@
 <!DOCTYPE html>
-<html lang="ru" class="lenght_100">
+<html lang="ru">
 	<head>
 		<meta name="Dmitry Rubtsov." content="Dmitry Rubtsov.">
-		<meta name="generator" content="Bluefish 2.2.14" >
-		<meta charset="utf-8">
-		<meta name="robots" content="noindex, nofollow"> 
-		<link rel="stylesheet" href="style.css">		
-		<title> Официальный сайт Дмитрия Рубцова. </title>		
+		<meta name="generator" content="Visual Studio Code" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">	
+		<link rel="stylesheet" href="./css/style.css">		
+		<title> Официальный Сайт Дмитрия Рубцова </title>		
 	</head>
-	
-	<body class="lenght_100">
-		<div class="top_and_bottom"></div>
-		<h1 class="top_and_bottom"> Официальный сайт Дмитрия Рубцова. </h1>
-		
-		<header>
-			<table class="begin_tb">
-				<tr>
-					<th class="begin_th"> <a class="link1" href="./index.html"> Мои проекты </a> </th> <th class="begin_th"> <a class="link1" href="./contacts.html"> Контакты </a> </th>
-				</tr>
-			</table>
-		</header>
-
-		<hr>
-
-		<div class="lenght_100 my_section" id="minus_height_footer">
-			<div class="lenght_100">		
-				<div id="empty_div_for_contacts"></div>
-				<p class="contacts"> <strong> Контакты </strong> </p>
-				<p class="contacts"> e-mail: RubtsovDmitry@yandex.ru </p>
-				<p class="contacts"> <a href="https://vk.com/rubtsovdmitry_official" target="_blank"> <img src="./pictures/vk.jpg" alt=""> </a> </p>						
-				<p class="contacts"> <a href="./ftp.html" target="_blank"> ftp://rubtsovdmitry.ru:21555 </a> </p>
-			</div>
+	<body>
+		<div w3-include-html="./include-html/name.html"></div>													<!-- js-включения -->
+		<div class="contacts">
+			<div w3-include-html="./include-html/nav.html"></div>												<!-- js-включения -->
 		</div>
-
-		<div class="top_and_bottom"></div>
-		<footer class="top_and_bottom"> <a href="https://github.com/rubtsovdmitry" target="_blank"> GitHub </a> &ensp; <a href="https://gitverse.ru/rubtsovdmitry?tab=repos" target="_blank"> Gitverse </a> </footer>
-	</body>
+		<div class="contacts-text">
+			<h6 class="contacts-h"> Контакты </h6>
+			<p> e-mail: RubtsovDmitry@yandex.ru </p>
+			<a href="https://vk.com/rubtsovdmitry_official" target="_blank"> <img src="./add/pictures/vk.jpg" alt=""> </a> <br>
+			<a href="./ftp.html" target="_blank"> ftp://rubtsovdmitry.ru:21555 </a>
+		</div>
+		<div w3-include-html="./include-html/bottom-line.html"></div>											<!-- js-включения -->
+		<script src="./js/include.js"></script>																	<!-- позволяет добавить на страницу html-включения -->
+		<script> includeHTML(); </script>
+		<script src="./js/wow.min.js"></script>																	<!-- Запускает анимацию при скроле. Для использования в теге элемента поставить class="wow" -->
+		<script> new WOW().init(); </script>																	<!-- Активирует скрипт js -->
+	</body> 
 </html>

@@ -1,0 +1,38 @@
+.contacts {
+    nav {
+        position: absolute;
+        top: $height-fix-line * 1.75;
+        left: $left-pad;
+        a {
+            display: inline-block;
+            font-size: $font-size-2;
+            color: $color-text-1;
+            text-shadow: 3px 3px $color-text-2;
+        }
+        a:not(:first-child) {
+            margin-left: $left-margin-for-menu-elements;
+        }
+    }
+}
+
+.contacts-text {
+    margin-top: calc($height-fix-line * 3 + 5%);
+    text-align: center;
+    * {
+        margin: $y-margin-for-p 0;
+    }
+    .contacts-h {
+        font-size: $font-size-2;
+        text-align: center;
+        letter-spacing: $letter-spacing;
+    }
+    p {
+        font-size: $font-size-2;
+        text-align: center;
+        letter-spacing: $letter-spacing;
+    }
+    a {
+        font-size: $font-size-2;
+        color: $color-text-2
+    }
+}
