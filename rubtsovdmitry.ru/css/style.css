@@ -103,6 +103,11 @@ footer {
 footer a:not(:first-child) {
   margin-left: 1vw;
 }
+footer a i {
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 3px;
+}
 
 header {
   overflow-x: hidden;

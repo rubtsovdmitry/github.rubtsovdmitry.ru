@@ -39,6 +39,11 @@ footer {
     a:not(:first-child) {
         margin-left: $left-margin-for-menu-elements;
     }
+    a i {
+        font-size: $font-size-1;
+        display: inline-block;
+        margin-left: 3px;
+    }
 }
 
 
