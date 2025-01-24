@@ -154,6 +154,10 @@ header {
         a {
             padding-left: 0;           
         }
+        i {
+            font-size: $font-size-1;
+            color: $color-style;
+        }
     }
     hr {
         margin: $y-margin-for-p * 2 0;
