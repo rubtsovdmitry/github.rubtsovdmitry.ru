@@ -157,6 +157,11 @@ header {
         i {
             font-size: $font-size-1;
             color: $color-style;
+            .inline_a {
+                font-size: $font-size-1;
+                color: $color-style;
+                font-style: italic;
+            }
         }
     }
     hr {
