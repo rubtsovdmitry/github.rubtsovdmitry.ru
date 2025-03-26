@@ -76,7 +76,7 @@ h1, footer, footer a {
   font-size: 20px;
   font-weight: 400;
   color: white;
-  background-color: #FF9794;
+  background-color: green;
 }
 
 h1, footer {
@@ -152,7 +152,7 @@ header .my-projects {
   border-top: 1px solid white;
   font-size: 34px;
   color: white;
-  background-color: #FF9794;
+  background-color: green;
   padding-left: 10vw;
   display: flex;
   align-items: center;
@@ -193,7 +193,7 @@ header .my-projects {
 }
 .main_wrapper .stack i {
   font-size: 20px;
-  color: #FF9794;
+  color: green;
 }
 .main_wrapper .tube {
   font-size: 20px;
@@ -214,11 +214,11 @@ header .my-projects {
 }
 .main_wrapper ul li i {
   font-size: 20px;
-  color: #FF9794;
+  color: green;
 }
 .main_wrapper ul li i .inline_a {
   font-size: 20px;
-  color: #FF9794;
+  color: green;
   font-style: italic;
 }
 .main_wrapper hr {
