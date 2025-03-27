@@ -173,6 +173,11 @@ header {
         animation-timing-function: linear;
         position: relative;
     }
+    .skills:not(:last-child) { border-bottom: 1px dotted $color-style; }
+    .skills_first { background-color: $color-style-2; }
+    .skills_second { background-color: $color-style-3; }
+    .skills_soft:nth-child(2n) { background-color: $color-style-3; }
+    .skills_soft:nth-child(2n+1) { background-color: $color-style-2; }
 }
 
 .contacts-text {

@@ -230,6 +230,21 @@ header .my-projects {
   animation-timing-function: linear;
   position: relative;
 }
+.main_wrapper .skills:not(:last-child) {
+  border-bottom: 1px dotted green;
+}
+.main_wrapper .skills_first {
+  background-color: rgba(26, 127, 27, 0.1);
+}
+.main_wrapper .skills_second {
+  background-color: rgba(26, 127, 27, 0.25);
+}
+.main_wrapper .skills_soft:nth-child(2n) {
+  background-color: rgba(26, 127, 27, 0.25);
+}
+.main_wrapper .skills_soft:nth-child(2n+1) {
+  background-color: rgba(26, 127, 27, 0.1);
+}
 
 .contacts-text h6 {
   margin-bottom: 70px;
