@@ -136,6 +136,13 @@ header {
     z-index: 10;
     top: $height-fix-line * 5 + 1;
 }
+.under_middle_5 {
+    height: $height-fix-line + 1px;
+    border-top: 1px solid white;
+    position: sticky;
+    z-index: 10;
+    top: $height-fix-line * 6 + 1;
+}
 
 
 // Основной контент
