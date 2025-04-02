@@ -166,6 +166,38 @@ header .my-projects {
   color: black;
 }
 
+.under_middle {
+  height: 41px;
+  border-top: 1px solid white;
+  position: sticky;
+  z-index: 10;
+  top: 81px;
+}
+
+.under_middle_2 {
+  height: 41px;
+  border-top: 1px solid white;
+  position: sticky;
+  z-index: 10;
+  top: 121px;
+}
+
+.under_middle_3 {
+  height: 41px;
+  border-top: 1px solid white;
+  position: sticky;
+  z-index: 10;
+  top: 161px;
+}
+
+.under_middle_4 {
+  height: 41px;
+  border-top: 1px solid white;
+  position: sticky;
+  z-index: 10;
+  top: 201px;
+}
+
 .main_wrapper {
   padding: 20px 10vw 60px 10vw;
   font-size: 20px;
@@ -204,6 +236,9 @@ header .my-projects {
   font-size: 20px;
   margin-left: 2.5vw;
 }
+.main_wrapper .small_color_block {
+  background-color: green;
+}
 .main_wrapper ul li {
   font-size: 20px;
   margin-left: 7.5vw;
@@ -239,10 +274,10 @@ header .my-projects {
 .main_wrapper .skills_second {
   background-color: rgba(26, 127, 27, 0.25);
 }
-.main_wrapper .skills_soft:nth-child(2n) {
+.main_wrapper .skills_chain:nth-child(2n) {
   background-color: rgba(26, 127, 27, 0.25);
 }
-.main_wrapper .skills_soft:nth-child(2n+1) {
+.main_wrapper .skills_chain:nth-child(2n+1) {
   background-color: rgba(26, 127, 27, 0.1);
 }
 

@@ -107,6 +107,36 @@ header {
     }
 }
 
+// under_middle
+.under_middle {
+    height: $height-fix-line + 1px;
+    border-top: 1px solid white;
+    position: sticky;
+    z-index: 10;
+    top: $height-fix-line * 2 + 1;
+}
+.under_middle_2 {
+    height: $height-fix-line + 1px;
+    border-top: 1px solid white;
+    position: sticky;
+    z-index: 10;
+    top: $height-fix-line * 3 + 1;
+}
+.under_middle_3 {
+    height: $height-fix-line + 1px;
+    border-top: 1px solid white;
+    position: sticky;
+    z-index: 10;
+    top: $height-fix-line * 4 + 1;
+}
+.under_middle_4 {
+    height: $height-fix-line + 1px;
+    border-top: 1px solid white;
+    position: sticky;
+    z-index: 10;
+    top: $height-fix-line * 5 + 1;
+}
+
 
 // Основной контент
 .main_wrapper {
@@ -144,8 +174,10 @@ header {
     }
     p strong {
         font-size: $font-size-1;
-        margin-left: $left-pad * 0.25;
-        
+        margin-left: $left-pad * 0.25;        
+    }
+    .small_color_block {
+        background-color: $color-style;
     }
     ul li {
         font-size: $font-size-1;
@@ -176,8 +208,8 @@ header {
     .skills:not(:last-child) { border-bottom: 1px dotted $color-style; }
     .skills_first { background-color: $color-style-2; }
     .skills_second { background-color: $color-style-3; }
-    .skills_soft:nth-child(2n) { background-color: $color-style-3; }
-    .skills_soft:nth-child(2n+1) { background-color: $color-style-2; }
+    .skills_chain:nth-child(2n) { background-color: $color-style-3; }
+    .skills_chain:nth-child(2n+1) { background-color: $color-style-2; }
 }
 
 .contacts-text {
