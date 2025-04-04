@@ -178,6 +178,10 @@ header {
     .small_color_block {
         background-color: $color-style;
     }
+    .about_project {
+        margin-left: $left-pad * 0.75;
+        padding-left: 0px;
+    }
     ul li {
         font-size: $font-size-1;
         margin-left: $left-pad * 0.75;

@@ -239,6 +239,10 @@ header .my-projects {
 .main_wrapper .small_color_block {
   background-color: green;
 }
+.main_wrapper .about_project {
+  margin-left: 7.5vw;
+  padding-left: 0px;
+}
 .main_wrapper ul li {
   font-size: 20px;
   margin-left: 7.5vw;
