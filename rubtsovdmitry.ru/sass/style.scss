@@ -147,6 +147,7 @@ header {
         font-style: normal;
         padding-left: $left-pad * 0.25;
         margin-top: $y-margin-for-p * 3;
+        margin-bottom: ($height-fix-line / 2);
     }
     p, a {
         font-size: $font-size-1;
@@ -213,6 +214,7 @@ header {
     .skills_second { background-color: $color-style-3; }
     .skills_chain:nth-child(2n) { background-color: $color-style-3; }
     .skills_chain:nth-child(2n+1) { background-color: $color-style-2; }
+    .about_myself { padding-right: 1px; }
 }
 
 .contacts-text {
@@ -225,6 +227,13 @@ header {
     }
 }
 
+hr {
+    border: ($height-fix-line / 8) solid $color-style-3;
+}
+
+#skills {
+    margin-top: ($height-fix-line * 1.5);
+}
 
 // Анимации
 @keyframes my-projects {

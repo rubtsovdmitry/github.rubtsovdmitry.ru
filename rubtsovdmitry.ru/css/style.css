@@ -208,6 +208,7 @@ header .my-projects {
   font-style: normal;
   padding-left: 2.5vw;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .main_wrapper p, .main_wrapper a {
   font-size: 20px;
@@ -276,13 +277,16 @@ header .my-projects {
   background-color: rgba(26, 127, 27, 0.1);
 }
 .main_wrapper .skills_second {
-  background-color: rgba(26, 127, 27, 0.25);
+  background-color: rgba(26, 127, 27, 0.3);
 }
 .main_wrapper .skills_chain:nth-child(2n) {
-  background-color: rgba(26, 127, 27, 0.25);
+  background-color: rgba(26, 127, 27, 0.3);
 }
 .main_wrapper .skills_chain:nth-child(2n+1) {
   background-color: rgba(26, 127, 27, 0.1);
+}
+.main_wrapper .about_myself {
+  padding-right: 1px;
 }
 
 .contacts-text h6 {
@@ -291,6 +295,14 @@ header .my-projects {
 .contacts-text .vk {
   display: block;
   margin-top: 20px;
+}
+
+hr {
+  border: 5px solid rgba(26, 127, 27, 0.3);
+}
+
+#skills {
+  margin-top: 60px;
 }
 
 @keyframes my-projects {
