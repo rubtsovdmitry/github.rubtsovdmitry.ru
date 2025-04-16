@@ -165,6 +165,13 @@ header {
         i {
             font-size: $font-size-1;
             color: $color-style;
+            .bold_animation {
+                font-size: $font-size-1;
+                animation-name: bold_animation_actions;
+                animation-duration: 1.5s;        
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
         }
     }
     .tube {
@@ -243,4 +250,10 @@ hr {
 @keyframes my-animation {
     0% { left: -$left-pad; }
     100% { left: 0; }
+}
+
+@keyframes bold_animation_actions {
+    0% { font-weight: 400; }
+    50% { font-weight: 1000; }
+    100% { font-weight: 400; }
 }

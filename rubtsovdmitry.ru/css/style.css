@@ -228,6 +228,13 @@ header .my-projects {
   font-size: 20px;
   color: green;
 }
+.main_wrapper .stack i .bold_animation {
+  font-size: 20px;
+  animation-name: bold_animation_actions;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 .main_wrapper .tube {
   font-size: 20px;
   color: red;
@@ -321,6 +328,17 @@ hr {
   }
   100% {
     left: 0;
+  }
+}
+@keyframes bold_animation_actions {
+  0% {
+    font-weight: 400;
+  }
+  50% {
+    font-weight: 1000;
+  }
+  100% {
+    font-weight: 400;
   }
 }
 
