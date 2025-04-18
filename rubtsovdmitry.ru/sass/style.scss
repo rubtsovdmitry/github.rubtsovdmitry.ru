@@ -257,3 +257,8 @@ hr {
     50% { font-weight: 400; }
     100% { font-weight: 400; }
 }
+
+//Костыли
+.crutch {
+    min-height: $height-fix-line;
+}

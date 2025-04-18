@@ -341,5 +341,8 @@ hr {
     font-weight: 400;
   }
 }
+.crutch {
+  min-height: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
