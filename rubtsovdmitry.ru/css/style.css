@@ -281,16 +281,16 @@ header .my-projects {
   border-bottom: 1px dotted rgb(111, 174, 255);
 }
 .main_wrapper .skills_first {
-  background-color: rgba(111, 174, 255, 0.1);
+  background-color: rgba(111, 174, 255, 0.2);
 }
 .main_wrapper .skills_second {
-  background-color: rgba(111, 174, 255, 0.3);
+  background-color: rgba(111, 174, 255, 0.5);
 }
 .main_wrapper .skills_chain:nth-child(2n) {
-  background-color: rgba(111, 174, 255, 0.3);
+  background-color: rgba(111, 174, 255, 0.5);
 }
 .main_wrapper .skills_chain:nth-child(2n+1) {
-  background-color: rgba(111, 174, 255, 0.1);
+  background-color: rgba(111, 174, 255, 0.2);
 }
 .main_wrapper .certificate {
   padding-right: 2px;
@@ -305,7 +305,7 @@ header .my-projects {
 }
 
 hr {
-  border: 5px solid rgba(111, 174, 255, 0.3);
+  border: 5px solid rgba(111, 174, 255, 0.5);
 }
 
 #skills {
