@@ -76,7 +76,7 @@ h1, footer, footer a {
   font-size: 20px;
   font-weight: 400;
   color: white;
-  background-color: green;
+  background-color: rgb(111, 174, 255);
 }
 
 h1, footer {
@@ -152,7 +152,7 @@ header .my-projects {
   border-top: 1px solid white;
   font-size: 34px;
   color: white;
-  background-color: green;
+  background-color: rgb(111, 174, 255);
   padding-left: 10vw;
   display: flex;
   align-items: center;
@@ -226,7 +226,7 @@ header .my-projects {
 }
 .main_wrapper .stack i {
   font-size: 20px;
-  color: green;
+  color: rgb(111, 174, 255);
 }
 .main_wrapper .stack i .bold_animation {
   font-size: 20px;
@@ -245,7 +245,7 @@ header .my-projects {
   margin-left: 2.5vw;
 }
 .main_wrapper .small_color_block {
-  background-color: green;
+  background-color: rgb(111, 174, 255);
 }
 .main_wrapper .about_project {
   margin-left: 7.5vw;
@@ -261,11 +261,11 @@ header .my-projects {
 }
 .main_wrapper ul li i {
   font-size: 20px;
-  color: green;
+  color: rgb(111, 174, 255);
 }
 .main_wrapper ul li i .inline_a {
   font-size: 20px;
-  color: green;
+  color: rgb(111, 174, 255);
   font-style: italic;
 }
 .main_wrapper hr {
@@ -278,19 +278,19 @@ header .my-projects {
   position: relative;
 }
 .main_wrapper .skills:not(:last-child) {
-  border-bottom: 1px dotted green;
+  border-bottom: 1px dotted rgb(111, 174, 255);
 }
 .main_wrapper .skills_first {
-  background-color: rgba(26, 127, 27, 0.1);
+  background-color: rgba(111, 174, 255, 0.1);
 }
 .main_wrapper .skills_second {
-  background-color: rgba(26, 127, 27, 0.3);
+  background-color: rgba(111, 174, 255, 0.3);
 }
 .main_wrapper .skills_chain:nth-child(2n) {
-  background-color: rgba(26, 127, 27, 0.3);
+  background-color: rgba(111, 174, 255, 0.3);
 }
 .main_wrapper .skills_chain:nth-child(2n+1) {
-  background-color: rgba(26, 127, 27, 0.1);
+  background-color: rgba(111, 174, 255, 0.1);
 }
 .main_wrapper .certificate {
   padding-right: 2px;
@@ -305,7 +305,7 @@ header .my-projects {
 }
 
 hr {
-  border: 5px solid rgba(26, 127, 27, 0.3);
+  border: 5px solid rgba(111, 174, 255, 0.3);
 }
 
 #skills {
