@@ -35,10 +35,10 @@
 			<div class="photo">
 				<div w3-include-html="./include-html/nav.html"></div>											<!-- js-включения -->
 			</div>
-			<a href="#my-projects" class="my-projects"> Мои учебные проекты </a>
+			<a href="#my-projects" class="my-projects"> Перейти к ПРОЕКТАМ </a>
 		</header>
 		<div class="middle-line" id="my-projects"> 
-			Мои учебные проекты: 
+			Мои проекты: 
 			<a href="#begin"> (в начало) </a>
 		</div>
 		<div class="main_wrapper">
@@ -144,19 +144,20 @@
 			<div class="my-animation wow">
 				<a href="https://album-new.rubtsovdmitry.ru" target="_blank"> album-new.rubtsovdmitry.ru </a> <br>
 				<div class="stack"> 
-					<i> Cтек: HTML &amp; CSS + Sass + <span class="bold_animation"> Django </span> + s3 object storage &ensp; </i> <strong class="tube"> Старт проекта: 2025.07.21 </strong>
+					<i> Cтек: HTML &amp; CSS + Sass + <span class="bold_animation"> Django </span> + s3 object storage + REGEX &ensp; </i> <strong class="tube"> Старт проекта: 2025.07.21 </strong>
 				</div>
 			</div>
 			<p> <strong> Коротко о проекте: </strong> </p>
 			<p class="about_project"> Тема проекта снова посвящена семейному (фото/видео)альбому. </p>
-			<p class="about_project"> В проекте впервые мною используется Django-5. Для доставки изображений для CSS, (фото/видео)контента для сайта используется S3 объектное хранилище. </p>
-			<p class="about_project"> Ссылки на контент из s3 хранилища генерируются автоматически скриптом, прикрученным к Django. Для добавления нового контента достаточно его просто поместить в s3 хранилище и он сразу динамически появляется на сайте. </p>
-			<p class="about_project"> Для безопасности s3 хранилища ключи от него хранятся в переменных виртуального окружения. </p>
+			<p class="about_project"> В проекте впервые мною используется Django-5. Для доставки изображений для CSS и (фото/видео)контента для сайта используется S3 объектное хранилище. </p>
+			<p class="about_project"> Ссылки на контент из s3 хранилища генерируются автоматически скриптом, прикрученным к Django. Для добавления нового контента достаточно его просто поместить в s3 хранилище и он сразу динамически появляется на сайте. 
+				В проекте не используется какая-либо БД, поэтому для реализации внутренней логики применяется REGEX (необходимо соблюдать строгие правила хранения и именования файлов в s3 хранилище).
+			</p>
+			<p class="about_project"> Для безопасности s3 хранилища (во избежании компроментации учётных данных) ключи от него хранятся в переменных виртуального окружения. </p>
 			<p> <strong> Скиллы / курсы для создания проекта: </strong> </p>
 			<ul>
 				<li> Современные средства Python разработчика. IDE: PyCharm, VSCode и Spyder <i> [Бауманский учебный центр "Специалист"]. </i> </li>
 				<li> Программирование на Python. Уровень 3. Разработка веб - приложений в Django <i> [Бауманский учебный центр "Специалист"]. </i> </li>
-				<li> SQL для всех: от начинающих до продвинутых <i> [Stepik]. </i> </li>
 			</ul>
 			<p> <strong> Книги / дополнительные материалы: </strong> </p>
 			<ul>				
@@ -174,6 +175,10 @@
 			</div>
 			<p> <strong> Коротко о проекте: </strong> </p>
 			<p class="about_project"> --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- </p>
+			<p> <strong> Скиллы / курсы для создания проекта: </strong> </p>
+			<ul>
+				<li> SQL для всех: от начинающих до продвинутых <i> [Stepik]. </i> </li>
+			</ul>
 			<p> <strong> Книги / дополнительные материалы: </strong> </p>
 			<ul>
 				<li> "Django 5 в примерах." Антонио Меле. </li>
@@ -212,6 +217,17 @@
 			<p> <strong> Коротко о проекте: </strong> </p>
 			<p class="about_project"> --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- </p>
 
+			<hr>
+
+			<div class="my-animation wow">
+				<a href="https://in-the-mountains.rubtsovdmitry.ru" target="_blank"> in-the-mountains.rubtsovdmitry.ru </a> <br>
+				<div class="stack"> 
+					<i> Cтек: HTML &amp; CSS + Sass + <span class="bold_animation"> Django </span> + PostgreSQL &ensp; </i> <strong class="tube"> (в разработке) </strong>
+				</div>
+			</div>
+			<p> <strong> Коротко о проекте: </strong> </p>
+			<p class="about_project"> --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- </p>
+
 
 
 			<div class="crutch" id="skills"></div>	<!-- нужен для правильной перемотки на объект по внутренней ссылке --> 
@@ -226,7 +242,7 @@
 				<li class="skills skills_second"> Jinja2 </li>
 				<li class="skills skills_second"> Понимание основных концепций программирования, структур данных и алгоритмов </li>
 
-				<li class="skills skills_first"> Регулярные выражения </li>
+				<li class="skills skills_first"> REGEX </li>
 
 				<li class="skills skills_second"> SQL на базовом уровне (DDL & DML) </li>
 
